@@ -1,0 +1,695 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-Compressed.woff2') format('woff2'),
+        url('font/Helvetica-Compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica.woff2') format('woff2'),
+        url('font/Helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-Bold.woff2') format('woff2'),
+        url('font/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-Light.woff2') format('woff2'),
+        url('font/Helvetica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-Thin.woff2') format('woff2'),
+        url('font/Helvetica-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-BoldOblique.woff2') format('woff2'),
+        url('font/Helvetica-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-Oblique.woff2') format('woff2'),
+        url('font/Helvetica-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Black.woff2') format('woff2'),
+        url('font/Inter-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-ExtraLight.woff2') format('woff2'),
+        url('font/Inter-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Bold.woff2') format('woff2'),
+        url('font/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-ExtraBold.woff2') format('woff2'),
+        url('font/Inter-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Medium.woff2') format('woff2'),
+        url('font/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Regular.woff2') format('woff2'),
+        url('font/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Light.woff2') format('woff2'),
+        url('font/Inter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Thin.woff2') format('woff2'),
+        url('font/Inter-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-SemiBold.woff2') format('woff2'),
+        url('font/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family:'Helvetica' ;
+}
+p{
+    font-family: 'Inter';
+}
+h1, h2, h3, h4{
+    font-family: 'Helvetica';
+}
+
+/* banner section css started  */
+
+.banner-section {
+    background-image: url(/assests/images/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+
+.banner-container{
+    width: 80%;
+}
+.banner-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.nav-bar-content ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-content li a, .footer-navbar li a{
+    color: #fff;
+    padding: 0 20px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.footer-navbar li:first-child{
+    margin-left: 0;
+}
+.footer-navbar li:first-child  a{
+    padding-left: 0;
+}
+.brand-logo{
+    margin-top: -15px;
+}
+
+/* banner-content css  */
+.banner-content{
+    width: 50%;
+    padding: 170px 0;
+}
+.banner-container h5{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.banner-content h1{
+    padding: 30px 0 20px 0;
+    font-size: 50px;
+    line-height: 60px;
+}
+.banner-content p{
+    padding-bottom: 30px;
+    width: 70%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.banner-content button {
+    width: 30%;
+    height: 40px;
+    background: #020202;
+    color: #ffff;
+    border:none;
+    border-radius: 6px;
+
+}
+
+/* doomed section css started  */
+
+.doomed-section {
+    display: flex;
+    justify-content: flex-end;
+}
+.doomed-container{
+    width: 90%;
+    padding: 120px 0;
+    color: #020202;
+}
+.inner-head{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    padding: 15px 0;
+}
+.inner-head span {
+    color: #42A5F5;
+}
+.inner-para{
+    width: 55%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #616161;
+}
+.doomed-container ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.doomed-container li {
+    width: 33%;
+    list-style: none;
+    padding-top: 60px;
+
+}
+.doomed-container li img{
+    width: 70px;
+}
+.doomed-container li h4{
+    width: 60%;
+    padding: 30px 0 20px 0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+}
+.doomed-container li p {
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #616161;
+}
+
+/* authentic section css started  */
+
+.authentic-section{
+    display: flex;
+    justify-content: center;
+    background-color: #020202;
+
+}
+.authentic-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 120px 0;
+}
+.authentic-inner-heading{
+    color: #ffff;
+}
+
+.authentic-card-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+.authentic-inner-card{
+    background: #ffff;
+    color: #020202;
+    border-radius: 15px;
+    box-shadow: 0px 23px 52px rgba(0, 0, 0, 0.1);
+    width: 47.5%;
+}
+.card-1-img img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 100%;
+}
+.card-1-content{
+    padding: 30px;
+}
+.card-1-content p{
+    padding: 15px 0 25px 0;
+    width: 85%;
+}
+
+.read-more a,.read-more{
+    color: #42A5F5;
+    padding-right: 10px;
+}
+.success-card{
+    height: 454px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.success-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .authentic-card-2{
+    background-image: url(/assests/images/carrd-3-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 100%;
+} */
+
+.authentic-card-2-content{
+    position: absolute;
+    top: 0;
+    border-radius: 15px;
+    padding: 150px 0px 140px 100px;
+    width: 40%;  
+    left: 0; 
+}
+.authentic-card-2-content p{
+    padding: 15px 0 25px 0;
+}
+.authentic-card-2-content h2{
+    line-height: 33px;
+    font-size: 26px;
+}
+.authentic-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.authentic-container button{
+    width: 20%;
+    height: 50px;
+    background-color: #42A5F5;
+    color: #ffff;
+    border-radius: 6px;
+}
+
+/* archives-section css started  */
+.archives-section{
+    display: flex;
+    justify-content: center;
+}
+.archives-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+.archives-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.archives-content h2{
+    width: 90%;
+    padding-top:30px ;
+}
+.archives-content p{
+    width: 70%;
+    padding: 20px 0 50px 0;
+}
+.archives-content button{
+    width: 35%;
+    height: 50px;
+    background-color: #020202;
+    color: #ffff;
+    border-radius: 6px;
+}
+
+.archives-video{
+    width: 50%;
+}
+.archives-video-container{
+    position: relative;
+}
+
+.archives-video-container img{
+    height: 100%;
+    width: 100%;
+}
+.play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15%;
+    z-index: 50;
+    transform: translate(-50%, -50%);
+}
+.play-btn:hover{
+    cursor: pointer;
+}
+.play-btn img{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer css started  */
+
+.footer-inner{
+    background: #42A5F5;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #cecece ;
+}
+.footer-container{
+    width: 80%;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer-navbar ul{
+    display: flex;
+}
+.footer-navbar li{
+    list-style: none;
+    margin: 0 20px;
+    font-family: Helvetica;
+}
+.footer-icons {
+    text-align: end;
+}
+.footer-icons img{
+    padding-right: 15px;
+}
+.footer-links p{
+    padding-top: 20px;
+}
+.sign-up-container{
+    font-size: 30px;
+    width: 50%;
+}
+.footer-search{
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 6px;
+}
+.footer-search input{
+    height: 100%;
+    border-radius: 6px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+.sign-up-container h3{
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+
+.archives-content h3{
+    color: #565656;
+    font-weight: normal;
+}
+/* ======================= 
+     Media Query started  
+   ======================= */
+@media(min-width:992px){
+    .authentic-inner-card.mob-card, .vide-mob-details{
+        display: none;
+    }
+}
+@media (max-width :1024px) {
+    .banner-content h1{
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .banner-content p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .banner-content{
+        padding: 100px 0;
+    }
+    .authentic-card-2-content{
+        width: 60%;
+        left: 0;
+        padding-left: 40px;
+        top: -50px;
+    }
+    .authentic-btn{
+        padding-top: 0;
+    }
+    
+}
+@media (max-width :991px)  {
+    .banner-section{
+        background-position: 85% 0px;
+        min-height: 780px;
+    }
+    .doomed-container li img{
+        width: 50px;
+    }
+    .footer-navbar li a, .footer-links p, .card-1-content{
+        font-size: 12px;
+    }
+    .card-1-content{
+        padding: 30px 15px;
+    }
+    
+    .footer-navbar li{
+        margin: 0px;
+    }
+    .footer-navbar li a{
+        padding: 0;
+    }
+    .banner-navbar, .banner-content p, .success-card, .archives-content p, .archives-content button{
+        display: none;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        padding: 60px 0 170px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .banner-content button, .authentic-container button{
+        padding: 10px 40px;
+        width: auto;
+    }
+    .doomed-section{
+        justify-content: flex-start;
+        padding: 0 20px;
+    }
+    .doomed-container{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .authentic-container{
+        padding: 40px 0;
+    }
+    .inner-para, .doomed-container li, .authentic-inner-card{
+        width: 100%;
+    }
+    .inner-head{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .authentic-card-1{
+        flex-flow: column;
+        padding: 40px 20px;
+    }
+    .authentic-inner-card{
+        margin-bottom: 40px;
+    }
+    .authentic-btn{
+        padding-top: 0;
+    }
+    .archives-container{
+        flex-flow: column;
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .archives-content h2{
+        padding-bottom: 10px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sign-up-container, .archives-video, .archives-content, .archives-content h2{
+        width: 100%;
+    }
+    .archives-video-container{
+        padding: 20px 30px;
+    }
+    
+    .archives-content, .vide-mob-details{
+        text-align: center;
+    }
+    .vide-mob-details button{
+        height: 40px;
+        background: #020202;
+        color: #ffff;
+        border-radius: 6px;
+        padding: 10px 40px;
+        border:none;
+        margin: 20px 0 0;
+    }
+    .vide-mob-details {
+        padding: 20px 0;
+    }
+    .sign-up-container h3{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .footer-search{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .footer-navbar ul {
+        flex-direction: column;
+    }
+    .footer-container-1{
+        flex-flow: row;
+        justify-content: space-between;
+    }
+    .footer-navbar li {
+        padding: 10px 0;
+    }
+}
+@media(max-width:767px){
+    .banner-section{
+        background-position: 57% 0px;
+        min-height: 780px;
+    }
+    .doomed-container li h4{
+        font-size: 20px;
+    }
+    .doomed-container li p, .vide-mob-details p{
+        font-size: 12px;
+    }
+    
+}
+@media(max-width:320px){
+    .banner-content h1 {
+        font-size: 23px;
+        line-height: 43px;
+    }
+}
+
